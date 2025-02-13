@@ -9,6 +9,9 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
+/*
+    HttpServletRequest - 기본 사용법 알아보기
+ */
 @WebServlet(name = "requestHeaderServlet", urlPatterns = "/request-header")
 public class RequestHeaderServlet extends HttpServlet {
 
